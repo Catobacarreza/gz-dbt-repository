@@ -31,5 +31,9 @@ sources:
             description: primary key
             tests:
               - unique
-              - not_null
-              
+              - not_nullsources:
+  - name: raw
+    schema: gz_raw_data
+    description: data for marekting greenweez ecommerce
+    tables:
+
