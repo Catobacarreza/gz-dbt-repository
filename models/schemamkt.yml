@@ -1,0 +1,20 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: gz_raw_data
+    description: data for marekting greenweez ecommerce
+    tables:
+      - name: adwords
+        identifier: raw_gz_adwords
+        description: details about adwords
+      - name: bing
+        identifier: raw_gz_bing
+        description: details about bing
+      - name: criteo
+        identifier: raw_gz_criteo
+        description: details about criteo
+      - name: facebook
+        identifier: raw_gz_facebook
+        description: details about facebook
+    
