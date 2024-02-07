@@ -20,3 +20,10 @@ sources:
       - name: ship
         identifier: raw_gz_ship
         description: details about ship
+        columns:
+          - name: orders_id
+            description: primary key
+            tests:
+              - unique
+              - not_null
+              
